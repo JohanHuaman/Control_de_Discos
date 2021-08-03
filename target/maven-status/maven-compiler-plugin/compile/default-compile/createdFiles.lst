@@ -1,0 +1,6 @@
+datos\DiscoDAO.class
+datos\DiscoDAOImpl.class
+datos\Conexion.class
+controlador\ServletControlador.class
+main\main.class
+modelo\Disco.class
