@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2C394B;
+}
+
+h1{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(228, 228, 228);
+
+}
+
+h2{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+.inicio{
+    background-color: #2C394B;
+    padding: 130px 50px;
+}
+
+header{
+    background-color: #082032;
+}
+
+img{
+    height: 50px;
+    margin: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+a{
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.agregar{
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    border-radius: 15px;
+    border: 0;
+}
+
+.listar{
+    padding: 20px 40px;
+    background-color: #008CBA;
+    border-radius: 15px;
+    border: 0;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+table{
+    background-color: #334756;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: #FF4C29;
+    border-bottom: solid 5px #082032;
+}
+
+tr:nth-child(even){
+    background-color: #294052;
+}
+
+tr:hover td{
+    background-color: #082032;
+    color:rgb(228, 228, 228);
+}
+
+.link-inicio{
+    text-align: center;
+    padding: 10px;
+}
+
+.formulario{
+    font-size: 18px;
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+    border: solid #082032;
+    border-radius: 30px;
+}
+
+.form-columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: rgb(228, 228, 228);
+    padding: 5px;
+}
+
+.boton-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+input{
+    border: solid 1px #082032;
+    padding: 5px;
+}
+
+.boton-submit button{
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    border-radius: 15px;
+    border: 0;
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+}
+
+.boton-submit button:hover{
+    cursor:pointer;
+}
