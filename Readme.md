@@ -5,3 +5,4 @@
 - El Controlador es un servlet que controla el flujo de las peticiones web.
 - La Vista, los JSP's que se encargan de desplegar la información.
 - El Modelo, representado por un JavaBean.
+- A cada parte de la vista se le dió un diseño con CSS.
